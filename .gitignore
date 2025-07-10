@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Entornos virtuales
+.env
+.venv/
+venv/
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Base de datos local o outputs
+*.db
+*.sqlite
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
