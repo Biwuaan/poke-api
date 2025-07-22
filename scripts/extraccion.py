@@ -74,6 +74,7 @@ def extrae_pokemons(id):
 
 #loop para insertarlos
 for i in range(1, total_pokemons, 100):
+    lista_poke = []
     grupo = list(range(i, min(i + 100, total_pokemons)))
 
     for poke_id in grupo:
